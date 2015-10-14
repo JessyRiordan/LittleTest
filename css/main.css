@@ -81,8 +81,7 @@ body {
   background-color: #1c1c1c;
   width: 100%; }
 
-.content {
-  background-color: #ffffff;
+main {
   width: 90%;
   margin: 0 auto; }
 
@@ -122,6 +121,10 @@ header {
       color: #0404b4; }
     header .right .globe .fa-globe {
       color: #ffff00; }
+
+section {
+  background: url(/img/mainImage.jpg);
+  height: 40em; }
 
 /* ==========================================================================
    Helper classes
