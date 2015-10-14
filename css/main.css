@@ -100,9 +100,57 @@ body {
 }
 
 .content {
-  background: #ffffff;
+  background-color: #ffffff;
   width: 90%;
   margin: 0 auto;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 1%;
+}
+
+.logo {
+  display: inline-block;
+  width: 5%;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.logo hr {
+  background-color: #ffff00;
+  width: 50%;
+  height: 0.5em;
+  border: 0;
+  margin: 0 auto;
+}
+
+.left {
+  display: inline-block;
+  width: 60%;
+}
+
+.left a,
+.left a:visited {
+  color: #a4a4a4;
+  text-decoration: none;
+  vertical-align: text-bottom;
+  margin: 3%;
+}
+
+.right {
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+  vertical-align: text-bottom;
+}
+
+.key .fa-circle,{
+  color: #a4a4a4;
+}
+
+.plus .fa-circle,{
+  color: #a4a4a4;
 }
 /* ==========================================================================
    Helper classes
