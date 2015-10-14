@@ -1,0 +1,16 @@
+{
+  "name": "LittleTest",
+  "version": "0.0.0",
+  "homepage": "https://github.com/JessyRiordan/LittleTest",
+  "authors": [
+    "Jessy Riordan <jessy.riordan@gmail.com>"
+  ],
+  "license": "CC0-1.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
