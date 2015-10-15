@@ -78,7 +78,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
-  background-color: #1c1c1c;
+  background-color: #585858;
   width: 100%; }
 
 main {
@@ -152,6 +152,23 @@ header {
       color: #ffffff;
       font-size: 4.5em;
       line-height: 0; }
+
+.designer {
+  background-color: #1c1c1c;
+  width: 33%;
+  padding: 2%; }
+  .designer .image {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto; }
+  .designer img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto; }
 
 /* ==========================================================================
    Helper classes
