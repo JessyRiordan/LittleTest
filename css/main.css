@@ -142,6 +142,16 @@ header {
       display: inline-block;
       margin-left: 1.5%;
       color: #ffffff; }
+  .slides .slideDetail {
+    position: absolute;
+    bottom: 20%; }
+    .slides .slideDetail p {
+      color: #ffffff;
+      font-weight: lighter; }
+    .slides .slideDetail h1 {
+      color: #ffffff;
+      font-size: 4.5em;
+      line-height: 0; }
 
 /* ==========================================================================
    Helper classes

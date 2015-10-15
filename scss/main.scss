@@ -181,6 +181,19 @@ header {
       color: #ffffff;
     }
   }
+  .slideDetail {
+    position: absolute;
+    bottom: 20%;
+    p {
+      color: #ffffff;
+      font-weight: lighter;
+    }
+    h1 {
+      color: #ffffff;
+      font-size: 4.5em;
+      line-height: 0;
+    }
+  }
 }
 /* ==========================================================================
    Helper classes
