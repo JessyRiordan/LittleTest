@@ -143,8 +143,8 @@ header {
       margin-left: 1.5%;
       color: #ffffff; }
   .slides .slideDetail {
-    position: absolute;
-    bottom: 20%; }
+    margin-top: 30%;
+    padding-left: 5%; }
     .slides .slideDetail p {
       color: #ffffff;
       font-weight: lighter; }
@@ -271,7 +271,7 @@ header {
               font-size: 0.5em; }
           .bottom .pins .pinsDetail .col-2-3 .pin1 .pinDetail {
             margin-top: 40%;
-            margin-left: 5%; }
+            padding-left: 5%; }
             .bottom .pins .pinsDetail .col-2-3 .pin1 .pinDetail p {
               color: #ffffff;
               font-size: 2em;
@@ -285,6 +285,31 @@ header {
           margin-bottom: 5%;
           margin-left: 5%;
           float: left; }
+          .bottom .pins .pinsDetail .col-2-3 .pin2 .likes {
+            text-align: right;
+            padding-right: 1em; }
+            .bottom .pins .pinsDetail .col-2-3 .pin2 .likes p {
+              display: inline-block;
+              margin-left: 1%;
+              color: #ffffff;
+              font-size: 0.5em;
+              font-weight: lighter; }
+            .bottom .pins .pinsDetail .col-2-3 .pin2 .likes .tack {
+              display: inline-block;
+              color: #ffffff;
+              font-size: 0.5em; }
+            .bottom .pins .pinsDetail .col-2-3 .pin2 .likes .heart {
+              display: inline-block;
+              margin-left: 1.5%;
+              color: #ffffff;
+              font-size: 0.5em; }
+          .bottom .pins .pinsDetail .col-2-3 .pin2 .pinDetail {
+            margin-top: 30%;
+            padding-left: 5%; }
+            .bottom .pins .pinsDetail .col-2-3 .pin2 .pinDetail p {
+              color: #ffffff;
+              font-size: 1.5em;
+              font-weight: lighter; }
         .bottom .pins .pinsDetail .col-2-3 .pin3 {
           display: inline-block;
           width: 100%;
@@ -293,6 +318,35 @@ header {
           background-size: cover;
           margin-bottom: 5%;
           float: left; }
+          .bottom .pins .pinsDetail .col-2-3 .pin3 .likes {
+            text-align: right;
+            padding-right: 1em; }
+            .bottom .pins .pinsDetail .col-2-3 .pin3 .likes p {
+              display: inline-block;
+              margin-left: 1%;
+              color: #ffffff;
+              font-size: 0.5em;
+              font-weight: lighter; }
+            .bottom .pins .pinsDetail .col-2-3 .pin3 .likes .tack {
+              display: inline-block;
+              color: #ffffff;
+              font-size: 0.5em; }
+            .bottom .pins .pinsDetail .col-2-3 .pin3 .likes .heart {
+              display: inline-block;
+              margin-left: 1.5%;
+              color: #ffffff;
+              font-size: 0.5em; }
+          .bottom .pins .pinsDetail .col-2-3 .pin3 .pinDetail {
+            text-align: center; }
+            .bottom .pins .pinsDetail .col-2-3 .pin3 .pinDetail p {
+              color: #ffffff;
+              font-size: 2em;
+              font-weight: lighter;
+              font-style: italic;
+              margin-bottom: 0; }
+            .bottom .pins .pinsDetail .col-2-3 .pin3 .pinDetail small {
+              color: #ffffff;
+              font-style: italic; }
         .bottom .pins .pinsDetail .col-2-3 .pin4 {
           display: inline-block;
           width: 47.5%;
@@ -300,14 +354,64 @@ header {
           background: url(https://images.unsplash.com/37/tEREUy1vSfuSu8LzTop3_IMG_2538.jpg?q=80&fm=jpg&s=5c58e1a0126bd449e471a4aa81284175);
           background-size: cover;
           float: left; }
+          .bottom .pins .pinsDetail .col-2-3 .pin4 .likes {
+            text-align: right;
+            padding-right: 1em; }
+            .bottom .pins .pinsDetail .col-2-3 .pin4 .likes p {
+              display: inline-block;
+              margin-left: 1%;
+              color: #ffffff;
+              font-size: 0.5em;
+              font-weight: lighter; }
+            .bottom .pins .pinsDetail .col-2-3 .pin4 .likes .tack {
+              display: inline-block;
+              color: #ffffff;
+              font-size: 0.5em; }
+            .bottom .pins .pinsDetail .col-2-3 .pin4 .likes .heart {
+              display: inline-block;
+              margin-left: 1.5%;
+              color: #ffffff;
+              font-size: 0.5em; }
+          .bottom .pins .pinsDetail .col-2-3 .pin4 .pinDetail {
+            margin-top: 40%;
+            padding-left: 5%; }
+            .bottom .pins .pinsDetail .col-2-3 .pin4 .pinDetail p {
+              color: #ffffff;
+              font-size: 2em;
+              font-weight: lighter; }
         .bottom .pins .pinsDetail .col-2-3 .pin5 {
           display: inline-block;
           width: 47.5%;
           height: 11em;
-          background: url(https://images.unsplash.com/photo-1433785567155-bf5530cab72c?q=80&fm=jpg&s=11ef7f88e38334b55df5cbdfaf615e44);
+          background: url(https://images.unsplash.com/photo-1414265247351-4afd13a3b4e6?q=80&fm=jpg&s=44a12113fefe14cb0aa20a2903ff2959);
           background-size: cover;
           margin-left: 5%;
           float: left; }
+          .bottom .pins .pinsDetail .col-2-3 .pin5 .likes {
+            text-align: right;
+            padding-right: 1em; }
+            .bottom .pins .pinsDetail .col-2-3 .pin5 .likes p {
+              display: inline-block;
+              margin-left: 1%;
+              color: #ffffff;
+              font-size: 0.5em;
+              font-weight: lighter; }
+            .bottom .pins .pinsDetail .col-2-3 .pin5 .likes .tack {
+              display: inline-block;
+              color: #ffffff;
+              font-size: 0.5em; }
+            .bottom .pins .pinsDetail .col-2-3 .pin5 .likes .heart {
+              display: inline-block;
+              margin-left: 1.5%;
+              color: #ffffff;
+              font-size: 0.5em; }
+          .bottom .pins .pinsDetail .col-2-3 .pin5 .pinDetail {
+            margin-top: 40%;
+            padding-left: 5%; }
+            .bottom .pins .pinsDetail .col-2-3 .pin5 .pinDetail p {
+              color: #ffffff;
+              font-size: 2em;
+              font-weight: lighter; }
       .bottom .pins .pinsDetail .col-1-3 {
         background-color: #a4a4a4;
         width: 30%;
@@ -321,6 +425,31 @@ header {
           background-size: cover;
           margin-left: 5%;
           margin-bottom: 5%; }
+          .bottom .pins .pinsDetail .col-1-3 .pin6 .likes {
+            text-align: right;
+            padding-right: 1em; }
+            .bottom .pins .pinsDetail .col-1-3 .pin6 .likes p {
+              display: inline-block;
+              margin-left: 1%;
+              color: #ffffff;
+              font-size: 0.5em;
+              font-weight: lighter; }
+            .bottom .pins .pinsDetail .col-1-3 .pin6 .likes .tack {
+              display: inline-block;
+              color: #ffffff;
+              font-size: 0.5em; }
+            .bottom .pins .pinsDetail .col-1-3 .pin6 .likes .heart {
+              display: inline-block;
+              margin-left: 1.5%;
+              color: #ffffff;
+              font-size: 0.5em; }
+          .bottom .pins .pinsDetail .col-1-3 .pin6 .pinDetail {
+            margin-top: 60%;
+            padding-left: 5%; }
+            .bottom .pins .pinsDetail .col-1-3 .pin6 .pinDetail p {
+              color: #ffffff;
+              font-size: 2em;
+              font-weight: lighter; }
         .bottom .pins .pinsDetail .col-1-3 .pin7 {
           display: inline-block;
           width: 90%;
@@ -329,6 +458,31 @@ header {
           background-size: cover;
           margin-left: 5%;
           margin-bottom: 5%; }
+          .bottom .pins .pinsDetail .col-1-3 .pin7 .likes {
+            text-align: right;
+            padding-right: 1em; }
+            .bottom .pins .pinsDetail .col-1-3 .pin7 .likes p {
+              display: inline-block;
+              margin-left: 1%;
+              color: #ffffff;
+              font-size: 0.5em;
+              font-weight: lighter; }
+            .bottom .pins .pinsDetail .col-1-3 .pin7 .likes .tack {
+              display: inline-block;
+              color: #ffffff;
+              font-size: 0.5em; }
+            .bottom .pins .pinsDetail .col-1-3 .pin7 .likes .heart {
+              display: inline-block;
+              margin-left: 1.5%;
+              color: #ffffff;
+              font-size: 0.5em; }
+          .bottom .pins .pinsDetail .col-1-3 .pin7 .pinDetail {
+            margin-top: 80%;
+            padding-left: 5%; }
+            .bottom .pins .pinsDetail .col-1-3 .pin7 .pinDetail p {
+              color: #ffffff;
+              font-size: 2em;
+              font-weight: lighter; }
 
 /* ==========================================================================
    Helper classes
