@@ -95,7 +95,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
-  background-color: #1c1c1c;
+  background-color: #585858;
   width: 100%;
 }
 
@@ -192,6 +192,81 @@ header {
       color: #ffffff;
       font-size: 4.5em;
       line-height: 0;
+    }
+  }
+}
+
+.designer {
+  background-color: #1c1c1c;
+  width: 33%;
+  padding: 2%;
+  .image {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    img {
+      display: inline;
+      margin: 0 auto;
+      height: 100%;
+      width: auto;
+    }
+  }
+  .designerInfo {
+    text-align: center;
+    .name {
+      color: #ffffff;
+      margin-top: 5%;
+      margin-bottom: 0;
+      font-size: 1.5em;
+    }
+    .title {
+      color: #ffffff;
+      margin-top: 0;
+      margin-bottom: 5%;
+      font-size: 0.75em;
+    }
+  }
+  .buttons {
+    text-align: center;
+    padding: 5% 0 5% 0;
+    a {
+      border: 2px solid #ffffff;
+      border-radius: 30px;
+      color: #ffffff;
+      padding: 2% 10%;
+      text-decoration: none;
+      i {
+        margin-right: 1%;
+      }
+    }
+    .message {
+      margin-left: 5%;
+    }
+  }
+  .designerDetails {
+    text-align: center;
+    .stories {
+      display: inline-block;
+      text-align: center;
+      color: #ffffff;
+      p {
+        margin: 0;
+        font-size: 2em;
+      }
+    }
+    .followers {
+      display: inline-block;
+      text-align: center;
+      color: #ffffff;
+      margin-left: 25%;
+      p {
+        margin: 0;
+        font-size: 2em;
+        font-variant: small-caps;
+      }
     }
   }
 }
