@@ -196,80 +196,110 @@ header {
   }
 }
 
-.designer {
-  background-color: #1c1c1c;
-  width: 33%;
-  padding: 2%;
-  .image {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: 0 auto;
-    img {
-      display: inline;
+.bottom {
+  width: 100%;
+  .designer {
+    background-color: #1c1c1c;
+    width: 33%;
+    padding: 2%;
+    float: left;
+    .image {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      border-radius: 50%;
+      overflow: hidden;
       margin: 0 auto;
-      height: 100%;
-      width: auto;
-    }
-  }
-  .designerInfo {
-    text-align: center;
-    .name {
-      color: #ffffff;
-      margin-top: 5%;
-      margin-bottom: 0;
-      font-size: 1.5em;
-    }
-    .title {
-      color: #ffffff;
-      margin-top: 0;
-      margin-bottom: 5%;
-      font-size: 0.75em;
-    }
-  }
-  .buttons {
-    text-align: center;
-    padding: 5% 0 5% 0;
-    a {
-      border: 2px solid #ffffff;
-      border-radius: 30px;
-      color: #ffffff;
-      padding: 2% 10%;
-      text-decoration: none;
-      i {
-        margin-right: 1%;
+      img {
+        display: inline;
+        margin: 0 auto;
+        height: 100%;
+        width: auto;
       }
     }
-    .message {
-      margin-left: 5%;
-    }
-  }
-  .designerDetails {
-    text-align: center;
-    .stories {
-      display: inline-block;
+    .designerInfo {
       text-align: center;
-      color: #ffffff;
-      p {
-        margin: 0;
-        font-size: 2em;
+      .name {
+        color: #ffffff;
+        margin-top: 5%;
+        margin-bottom: 0;
+        font-size: 1.5em;
+      }
+      .title {
+        color: #ffffff;
+        margin-top: 0;
+        margin-bottom: 5%;
+        font-size: 0.75em;
       }
     }
-    .followers {
-      display: inline-block;
+    .buttons {
       text-align: center;
-      color: #ffffff;
-      margin-left: 25%;
-      p {
-        margin: 0;
-        font-size: 2em;
-        font-variant: small-caps;
+      padding: 5% 0 5% 0;
+      a {
+        border: 2px solid #ffffff;
+        border-radius: 30px;
+        color: #ffffff;
+        padding: 2% 10%;
+        text-decoration: none;
+        i {
+          margin-right: 1%;
+        }
+      }
+      .message {
+        margin-left: 5%;
+      }
+    }
+    .designerDetails {
+      text-align: center;
+      .stories {
+        display: inline-block;
+        text-align: center;
+        color: #ffffff;
+        p {
+          margin: 0;
+          font-size: 2em;
+        }
+      }
+      .followers {
+        display: inline-block;
+        text-align: center;
+        color: #ffffff;
+        margin-left: 25%;
+        p {
+          margin: 0;
+          font-size: 2em;
+          font-variant: small-caps;
+        }
+      }
+    }
+  }
+  .pins {
+    background-color: #ffffff;
+    width: 63%;
+    float: left;
+    header {
+      nav {
+        width: 100%;
+        a,
+        a:visited {
+          color: #a4a4a4;
+          text-decoration: none;
+          margin: 3%;
+        }
+        .invites {
+          margin-left: 40%;
+          i {
+            color: #ff4000;
+            font-size: 1.5em;
+            padding-left: 2%;
+            vertical-align: sub;
+          }
+        }
       }
     }
   }
 }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

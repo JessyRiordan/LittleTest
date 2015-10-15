@@ -153,65 +153,86 @@ header {
       font-size: 4.5em;
       line-height: 0; }
 
-.designer {
-  background-color: #1c1c1c;
-  width: 33%;
-  padding: 2%; }
-  .designer .image {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: 0 auto; }
-    .designer .image img {
-      display: inline;
-      margin: 0 auto;
-      height: 100%;
-      width: auto; }
-  .designer .designerInfo {
-    text-align: center; }
-    .designer .designerInfo .name {
-      color: #ffffff;
-      margin-top: 5%;
-      margin-bottom: 0;
-      font-size: 1.5em; }
-    .designer .designerInfo .title {
-      color: #ffffff;
-      margin-top: 0;
-      margin-bottom: 5%;
-      font-size: 0.75em; }
-  .designer .buttons {
-    text-align: center;
-    padding: 5% 0 5% 0; }
-    .designer .buttons a {
-      border: 2px solid #ffffff;
-      border-radius: 30px;
-      color: #ffffff;
-      padding: 2% 10%;
-      text-decoration: none; }
-      .designer .buttons a i {
-        margin-right: 1%; }
-    .designer .buttons .message {
-      margin-left: 5%; }
-  .designer .designerDetails {
-    text-align: center; }
-    .designer .designerDetails .stories {
-      display: inline-block;
+.bottom {
+  width: 100%; }
+  .bottom .designer {
+    background-color: #1c1c1c;
+    width: 33%;
+    padding: 2%;
+    float: left; }
+    .bottom .designer .image {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto; }
+      .bottom .designer .image img {
+        display: inline;
+        margin: 0 auto;
+        height: 100%;
+        width: auto; }
+    .bottom .designer .designerInfo {
+      text-align: center; }
+      .bottom .designer .designerInfo .name {
+        color: #ffffff;
+        margin-top: 5%;
+        margin-bottom: 0;
+        font-size: 1.5em; }
+      .bottom .designer .designerInfo .title {
+        color: #ffffff;
+        margin-top: 0;
+        margin-bottom: 5%;
+        font-size: 0.75em; }
+    .bottom .designer .buttons {
       text-align: center;
-      color: #ffffff; }
-      .designer .designerDetails .stories p {
-        margin: 0;
-        font-size: 2em; }
-    .designer .designerDetails .followers {
-      display: inline-block;
-      text-align: center;
-      color: #ffffff;
-      margin-left: 25%; }
-      .designer .designerDetails .followers p {
-        margin: 0;
-        font-size: 2em;
-        font-variant: small-caps; }
+      padding: 5% 0 5% 0; }
+      .bottom .designer .buttons a {
+        border: 2px solid #ffffff;
+        border-radius: 30px;
+        color: #ffffff;
+        padding: 2% 10%;
+        text-decoration: none; }
+        .bottom .designer .buttons a i {
+          margin-right: 1%; }
+      .bottom .designer .buttons .message {
+        margin-left: 5%; }
+    .bottom .designer .designerDetails {
+      text-align: center; }
+      .bottom .designer .designerDetails .stories {
+        display: inline-block;
+        text-align: center;
+        color: #ffffff; }
+        .bottom .designer .designerDetails .stories p {
+          margin: 0;
+          font-size: 2em; }
+      .bottom .designer .designerDetails .followers {
+        display: inline-block;
+        text-align: center;
+        color: #ffffff;
+        margin-left: 25%; }
+        .bottom .designer .designerDetails .followers p {
+          margin: 0;
+          font-size: 2em;
+          font-variant: small-caps; }
+  .bottom .pins {
+    background-color: #ffffff;
+    width: 63%;
+    float: left; }
+    .bottom .pins header nav {
+      width: 100%; }
+      .bottom .pins header nav a,
+      .bottom .pins header nav a:visited {
+        color: #a4a4a4;
+        text-decoration: none;
+        margin: 3%; }
+      .bottom .pins header nav .invites {
+        margin-left: 40%; }
+        .bottom .pins header nav .invites i {
+          color: #ff4000;
+          font-size: 1.5em;
+          padding-left: 2%;
+          vertical-align: sub; }
 
 /* ==========================================================================
    Helper classes
