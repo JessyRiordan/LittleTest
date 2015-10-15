@@ -193,6 +193,12 @@ header {
     .bottom .designer .buttons {
       text-align: center;
       padding: 5% 0 5% 0; }
+      .bottom .designer .buttons .greenButton {
+        background-color: #04b486;
+        border-color: #04b486;
+        color: #ffffff; }
+        .bottom .designer .buttons .greenButton i {
+          color: #1c1c1c; }
       .bottom .designer .buttons a {
         border: 2px solid #a4a4a4;
         border-radius: 30px;

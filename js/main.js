@@ -12,4 +12,16 @@ $( document ).ready(function() {
         $(this).toggleClass("redHeart");
       });
     });
+    $( function() {
+      $('.following').click( function(event) {
+        event.preventDefault();
+        $(this).toggleClass("greenButton");
+      });
+    });
+    $( function() {
+      $('.message').click( function(event) {
+        event.preventDefault();
+        $(this).toggleClass("greenButton");
+      });
+    });
 });
