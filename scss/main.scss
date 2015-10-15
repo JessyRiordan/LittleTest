@@ -99,15 +99,14 @@ body {
   width: 100%;
 }
 
-.content {
-  background-color: #ffffff;
+main {
   width: 90%;
   margin: 0 auto;
 }
 
 header {
   background-color: #ffffff;
-  padding: 1%;
+  padding: 1% 3% 1% 3%;
   .logo {
     display: inline-block;
     width: 5%;
@@ -134,7 +133,7 @@ header {
   }
   .right {
     display: inline-block;
-    width: 30%;
+    width: 34%;
     text-align: right;
     vertical-align: text-bottom;
     .key {
@@ -154,6 +153,45 @@ header {
       .fa-globe {
         color: #ffff00;
       }
+    }
+  }
+}
+
+.slides {
+  background: url(/img/mainImage.jpg);
+  height: 40em;
+  padding: 2%;
+  .likes {
+    text-align: right;
+    padding-right: 1em;
+    p {
+      display: inline-block;
+      margin-left: 1%;
+      color: #ffffff;
+      font-size: 2em;
+      font-weight: lighter;
+    }
+    .tack {
+      display: inline-block;
+      color: #ffffff;
+    }
+    .heart {
+      display: inline-block;
+      margin-left: 1.5%;
+      color: #ffffff;
+    }
+  }
+  .slideDetail {
+    position: absolute;
+    bottom: 20%;
+    p {
+      color: #ffffff;
+      font-weight: lighter;
+    }
+    h1 {
+      color: #ffffff;
+      font-size: 4.5em;
+      line-height: 0;
     }
   }
 }
