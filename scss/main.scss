@@ -207,12 +207,44 @@ header {
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto;
+    img {
+      display: inline;
+      margin: 0 auto;
+      height: 100%;
+      width: auto;
+    }
   }
-  img {
-    display: inline;
-    margin: 0 auto;
-    height: 100%;
-    width: auto;
+  .designerInfo {
+    text-align: center;
+    .name {
+      color: #ffffff;
+      margin-top: 5%;
+      margin-bottom: 0;
+      font-size: 1.5em;
+    }
+    .title {
+      color: #ffffff;
+      margin-top: 0;
+      margin-bottom: 5%;
+      font-size: 0.75em;
+    }
+  }
+  .buttons {
+    text-align: center;
+    padding: 5% 0 5% 0;
+    a {
+      border: 2px solid #ffffff;
+      border-radius: 30px;
+      color: #ffffff;
+      padding: 2% 10%;
+      text-decoration: none;
+      i {
+        margin-right: 1%;
+      }
+    }
+    .message {
+      margin-left: 5%;
+    }
   }
 }
 /* ==========================================================================
