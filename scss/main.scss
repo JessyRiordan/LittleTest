@@ -102,6 +102,12 @@ body {
 main {
   width: 90%;
   margin: 0 auto;
+  .yellowTack {
+    color: #ffff00;
+  }
+  .redHeart {
+    color: red;
+  }
 }
 
 header {
@@ -232,13 +238,24 @@ header {
         font-size: 0.75em;
       }
     }
+    hr {
+      color: #a4a4a4;
+    }
     .buttons {
       text-align: center;
       padding: 5% 0 5% 0;
-      a {
-        border: 2px solid #ffffff;
-        border-radius: 30px;
+      .greenButton {
+        background-color: #04b486;
+        border-color: #04b486;
         color: #ffffff;
+        i {
+          color: #1c1c1c;
+        }
+      }
+      a {
+        border: 2px solid #a4a4a4;
+        border-radius: 30px;
+        color: #a4a4a4;
         padding: 2% 10%;
         text-decoration: none;
         i {
