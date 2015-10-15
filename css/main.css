@@ -194,6 +194,24 @@ header {
         margin-right: 1%; }
     .designer .buttons .message {
       margin-left: 5%; }
+  .designer .designerDetails {
+    text-align: center; }
+    .designer .designerDetails .stories {
+      display: inline-block;
+      text-align: center;
+      color: #ffffff; }
+      .designer .designerDetails .stories p {
+        margin: 0;
+        font-size: 2em; }
+    .designer .designerDetails .followers {
+      display: inline-block;
+      text-align: center;
+      color: #ffffff;
+      margin-left: 25%; }
+      .designer .designerDetails .followers p {
+        margin: 0;
+        font-size: 2em;
+        font-variant: small-caps; }
 
 /* ==========================================================================
    Helper classes

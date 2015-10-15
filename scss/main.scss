@@ -246,6 +246,29 @@ header {
       margin-left: 5%;
     }
   }
+  .designerDetails {
+    text-align: center;
+    .stories {
+      display: inline-block;
+      text-align: center;
+      color: #ffffff;
+      p {
+        margin: 0;
+        font-size: 2em;
+      }
+    }
+    .followers {
+      display: inline-block;
+      text-align: center;
+      color: #ffffff;
+      margin-left: 25%;
+      p {
+        margin: 0;
+        font-size: 2em;
+        font-variant: small-caps;
+      }
+    }
+  }
 }
 /* ==========================================================================
    Helper classes
