@@ -314,6 +314,37 @@ header {
           background: url(https://images.unsplash.com/photo-1416848563085-8aba76f2ba00?q=80&fm=jpg&s=c1952c4c7037e623f676a5bfa8a9e9d2);
           background-size: cover;
           float: left;
+          .likes {
+            text-align: right;
+            padding-right: 1em;
+            p {
+              display: inline-block;
+              margin-left: 1%;
+              color: #ffffff;
+              font-size: 0.5em;
+              font-weight: lighter;
+            }
+            .tack {
+              display: inline-block;
+              color: #ffffff;
+              font-size: 0.5em;
+            }
+            .heart {
+              display: inline-block;
+              margin-left: 1.5%;
+              color: #ffffff;
+              font-size: 0.5em;
+            }
+          }
+          .pinDetail {
+            margin-top: 40%;
+            margin-left: 5%;
+            p {
+              color: #ffffff;
+              font-size: 2em;
+              font-weight: lighter;
+            }
+          }
         }
         .pin2 {
           display: inline-block;
